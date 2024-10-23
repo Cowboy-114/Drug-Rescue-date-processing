@@ -1,4 +1,5 @@
 1. Project Overview
+   
 In this project, we will generate Violin Plots and Heat Maps to analyze data from High Throughput Studies. These visualizations will help assess the quality of experimental data and provide insights into how different conditions, such as drug treatments or temperature changes, affect cell trafficking. The project involves processing experimental data using R and R Studio.
 
 Throughout the project, you will need to download the required files and update the file paths in the scripts.
@@ -24,9 +25,11 @@ Next, use the Tile3-meta_processing-dmso.R script to combine the results from di
 It will output a combined CSV file called Tile3-dmso.csv, which represents the average results across these samples.
 
 Step 3: Comparing experimental conditions
+
 Finally, compare the results from different experimental conditions using the Tile3-meta_diff.R script. For example, you can use the Tile3-meta_diff-v2.R script to compare the trafficking of cells under the eva condition with the dmso condition, helping you evaluate the effect of different drug treatments or temperature changes on the cells.
 
 3. Glossary
+   
 Tile3: The KCNH2 gene is divided into five sections, or "tiles," for easier analysis. Tile3 represents one of these segments.
 dmso, eva, e4031, temperature: These refer to the experimental conditions. dmso is the control, while eva and e4031 represent drug treatments. Temperature refers to testing under different thermal conditions.
 pRU327: The name of the plasmid used in these experiments.
