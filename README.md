@@ -4,6 +4,7 @@ In this project, we will generate Violin Plots and Heat Maps to analyze data fro
 Throughout the project, you will need to download the required files and update the file paths in the scripts.
 
 2. Instructions
+
 Step 1: Processing individual experiments
 We begin by running the Tile3sortedCells-11848-dmso.R script. This will create both a heat map and a violin plot, and output a CSV file named 11848_e_dmso.csv. The heat map and violin plot will help evaluate the quality of experiment 11848 under the DMSO condition.
 
