@@ -2,9 +2,13 @@
 
 In this project, we create Violin Plots and Heat Maps to analyze data from high-throughput studies. These visualizations will help us evaluate the quality of experimental data and gain insights into how various conditions—such as drug treatments or temperature changes—impact cell trafficking. We’ll process the experimental data using R and RStudio.
 
-**Note**: Download R and RStudio from the internet, and obtain the necessary files from the Kroncke OneDrive. Remember to update file paths in the scripts as needed.
+**Tips**
 
-**Tip**: Throughout each step, consider organizing your data locations efficiently to optimize the `setwd` command’s functionality.
+1. **Download** R and RStudio from the internet, and obtain the necessary files from the Kroncke OneDrive, and update file paths in the scripts as needed.
+
+2. **Organize Data Locations**: Throughout each step, consider organizing your data locations efficiently to optimize the `setwd` command’s functionality.
+
+3. **Share Results**: After completing each step, send the heat map and violin plot to the experimenter and Mr. Brett so they can assess the quality of the experiment.
 
 ---
 
