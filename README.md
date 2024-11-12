@@ -2,7 +2,9 @@
 
 In this project, we create Violin Plots and Heat Maps to analyze data from high-throughput studies. These visualizations will help us evaluate the quality of experimental data and gain insights into how various conditions—such as drug treatments or temperature changes—impact cell trafficking. We’ll process the experimental data using R and RStudio.
 
-**Note**: Download R, RStudio from the Internet and the necessary files from the Kroncke OneDrive, and update file paths in the scripts.
+**Note**: Download R and RStudio from the internet, and obtain the necessary files from the Kroncke OneDrive. Remember to update file paths in the scripts as needed.
+
+**Tip**: Throughout each step, consider organizing your data locations efficiently to optimize the `setwd` command’s functionality.
 
 ---
 
@@ -36,8 +38,6 @@ In this project, we create Violin Plots and Heat Maps to analyze data from high-
 ## Step 3: Comparing Experimental Conditions
 
 1. Finally, use the `Tile3-meta_diff.R` script to compare results from different conditions. For example, the `Tile3-meta_diff-v2.R` script can compare cell trafficking under `eva` versus `dmso`, allowing you to assess the effects of drug treatments or temperature changes on the cells.
-
-2. **Tip**: Throughout each step, consider organizing your data locations efficiently to optimize the `setwd` command’s functionality.
 
 ---
 
